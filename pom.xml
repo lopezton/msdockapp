@@ -28,6 +28,7 @@
         <module>discovery-server</module>
 		<module>gateway-server</module>
 		<module>employee-service</module>
+		<module>config</module>
 	</modules>
 
     <build>
