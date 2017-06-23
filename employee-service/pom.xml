@@ -9,7 +9,6 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	
-	<groupId>io.tonelope.tutorial.msdockapp</groupId>
 	<artifactId>employee-service</artifactId>
 	<packaging>jar</packaging>
 

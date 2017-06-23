@@ -1,0 +1,32 @@
+version: '2.1'
+
+services:
+
+  config:
+    build: ./config
+      
+  registry:
+    build: ./registry
+    ports:
+      - 8761:8761
+    depends_on:
+      config:
+        condition: service_healthy
+        
+  gateway:
+    build: ./gateway
+    ports:
+      - 80:8080
+    depends_on:
+      config:
+        condition: service_healthy
+      
+  service-db:
+    image: mongo:3.4
+    
+  employee-service:
+    build: ./employee-service
+    depends_on:
+      config:
+        condition: service_healthy
+    

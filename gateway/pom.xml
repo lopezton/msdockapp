@@ -10,7 +10,7 @@
 	</parent>
 	
 	<groupId>io.tonelope.tutorial.msdockapp</groupId>
-	<artifactId>gateway-server</artifactId>
+	<artifactId>gateway</artifactId>
 	<packaging>jar</packaging>
 
 	<name>gateway</name>

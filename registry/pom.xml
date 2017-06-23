@@ -10,10 +10,10 @@
 	</parent>
 	
 	<groupId>io.tonelope.tutorial.msdockapp</groupId>
-	<artifactId>discovery-server</artifactId>
+	<artifactId>registry</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>discovery</name>
+	<name>registry</name>
 	<description>Demo project for Spring Boot</description>
 
 	<dependencies>

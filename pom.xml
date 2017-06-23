@@ -25,8 +25,8 @@
 	</properties>
 
     <modules>
-        <module>discovery-server</module>
-		<module>gateway-server</module>
+        <module>registry</module>
+		<module>gateway</module>
 		<module>employee-service</module>
 		<module>config</module>
 	</modules>
