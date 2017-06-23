@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.tonelope.tutorial.msdockapp</groupId>
-    <artifactId>localization</artifactId>
+    <artifactId>msdockapp-root</artifactId>
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <name>Microservces Docker Tutorial Parent Project</name>
